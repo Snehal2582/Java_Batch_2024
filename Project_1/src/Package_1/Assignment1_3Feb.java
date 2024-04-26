@@ -31,8 +31,8 @@ public class Assignment1_3Feb {
 	public static void main (String[]args) 
 	{
 		Assignment1_3Feb calc = new Assignment1_3Feb();
-		int sum1 = calc.sum(10, 2);
-		int sum2 = calc.sum(sum1, 2);
+		int sum = calc.sum(10, 2);
+		int sum2 = calc.sum(sum, 2);
 		int sub1 = calc.sub(sum2, 2);
 		int mult1 = calc.multiply(sub1,2);
 		int div1= calc.div(mult1, 2);
